@@ -13,6 +13,6 @@ class WasRun(TestCase):
         self.wasRun=1
 
 test=WasRun("testMethod")
-print test.wasRun
+print(test.wasRun)
 test.run()
-print test.wasRun
+print(test.wasRun)
