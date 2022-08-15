@@ -1,11 +1,7 @@
-class TestCase:
-    def __init__(self,name):
-        self.name=name
-
-class WasRun(TestCase):
+class WasRun:
     def __init__(self,name):
         self.wasRun=None
-        TestCase.__init__(self,name)
+        self.name=name
     def testMethod(self):
         self.wasRun=1
     def run(self):
@@ -13,6 +9,6 @@ class WasRun(TestCase):
         method()
 
 test=WasRun("testMethod")
-print test.wasRun
+print(test.wasRun)
 test.run()
-print test.wasRun
+print(test.wasRun)

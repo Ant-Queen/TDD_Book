@@ -5,6 +5,6 @@ class WasRun:
         self.wasRun=1
 
 test=WasRun("testMethod")
-print test.wasRun
+print(test.wasRun)
 test.testMethod()
-print test.wasRun
+print(test.wasRun)
