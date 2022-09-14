@@ -43,11 +43,13 @@ class TestSuite:
         self.tests=[]
     def add(self,test):
         self.tests.append(test)
+#추가
     def run(self):
         resuit=TestResult()
         for test in self.tests:
             tset.run(result)
         return result
+#
 
 class TestCaseTest(TestCase):
     def setUp(self):

@@ -72,7 +72,9 @@ class TestCaseTest(TestCase):
         suite=TestSuite()
         suite.add(WasRun("testMethod"))
         suite.add(WasRun("testBrokenMethod"))
+#추가
         result=TestResult()
+#
         suite.run(result)
         assert("2 run, 1 failed"==result.summary())
 

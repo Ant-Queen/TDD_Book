@@ -58,7 +58,9 @@ class TestCaseTest(TestCase):
         result=test.run()
         assert("1 run, 1 failed"==result.summary())
 
+#변경
 print(TestCaseTest("testTemplateMethod").run().summary())
 print(TestCaseTest("testResult").run().summary())
 print(TestCaseTest("testFailedResultFormatting").run().summary())
 print(TestCaseTest("testFailedResult").run().summary())
+#

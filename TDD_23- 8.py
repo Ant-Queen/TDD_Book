@@ -72,6 +72,7 @@ class TestCaseTest(TestCase):
         suite.run(result)
         assert("2 run, 1 failed"==result.summary())
 
+#변경
 suite=TestSuite()
 suite.add(TestCaseTest("testTemplateMethod"))
 suite.add(TestCaseTest("testResult"))
@@ -81,3 +82,4 @@ suite.add(TestCaseTest("testSuite"))
 result=TestResult()
 suite.run(result)
 print(result.summary())
+#

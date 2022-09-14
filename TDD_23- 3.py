@@ -74,4 +74,6 @@ print(TestCaseTest("testTemplateMethod").run().summary())
 print(TestCaseTest("testResult").run().summary())
 print(TestCaseTest("testFailedResultFormatting").run().summary())
 print(TestCaseTest("testFailedResult").run().summary())
+#추가
 print(TestCaseTest("testSuite").run().summary())
+#

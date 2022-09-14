@@ -1,6 +1,7 @@
 class TestCase:
     def __init__(self,name):
         self.name=name
+#변경
     def run(self,result):
         result.testStarted()
         self.setUp()
@@ -10,6 +11,7 @@ class TestCase:
         except:
             result.testFailed()
         self.tearDown()
+#
     def setUp(self):
         pass
     def tearDown(self):
