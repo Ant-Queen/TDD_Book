@@ -1,6 +1,3 @@
-from unittest import TestResult, result
-
-
 class TestCase:
     def __init__(self,name):
         self.name=name
