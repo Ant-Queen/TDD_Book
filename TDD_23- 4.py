@@ -45,9 +45,9 @@ class TestSuite:
         self.tests.append(test)
 #추가
     def run(self):
-        resuit=TestResult()
+        result=TestResult()
         for test in self.tests:
-            tset.run(result)
+            test.run(result)
         return result
 #
 

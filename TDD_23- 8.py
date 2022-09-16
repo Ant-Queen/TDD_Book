@@ -43,7 +43,7 @@ class TestSuite:
         self.tests.append(test)
     def run(self,result):
         for test in self.tests:
-            tset.run(result)
+            test.run(result)
 
 class TestCaseTest(TestCase):
     def setUp(self):

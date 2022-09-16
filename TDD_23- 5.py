@@ -44,9 +44,9 @@ class TestSuite:
     def add(self,test):
         self.tests.append(test)
     def run(self):
-        resuit=TestResult()
+        result=TestResult()
         for test in self.tests:
-            tset.run(result)
+            test.run(result)
         return result
 
 class TestCaseTest(TestCase):

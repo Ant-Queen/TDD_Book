@@ -46,7 +46,7 @@ class TestSuite:
 #변경
     def run(self,result):
         for test in self.tests:
-            tset.run(result)
+            test.run(result)
 #
 
 class TestCaseTest(TestCase):
